@@ -15,7 +15,8 @@
 
 <meta name="description" content="<?php echo $metadescription; ?>">
 <?php // each template must have a value for $metadescription so it can be printed here ?>
-
+<link rel="stylesheet" href="/themes/active/css/simple-css-reset-v2.0.css" media="all">
+<link rel="stylesheet" href="/themes/active/css/style.css" media="all">
 </head>
 <body>
 

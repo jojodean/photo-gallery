@@ -12,7 +12,7 @@ echo "<h1>" . $metatitle . "</h1>" . "\r\n";
 
 
 
-echo "<main>" . "\r\n";
+echo '<main class="thumbs">' . "\r\n";
 // open the <main> tag
 
 
