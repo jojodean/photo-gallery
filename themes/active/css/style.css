@@ -3,19 +3,27 @@ COLOR PALETTE WITH CSS VARIABLES
 ----------------------------------------- */   
 
 :root {
-    --main-bg-color: rgb(255, 255, 255);
-    --main-fg-color: rgb(1, 35, 70);
-    --titles-color: #1c0263;
-    --bodytext-color: #444444;
+    --main-bg-color: rgb(0, 0, 0);
+    --main-fg-color: rgb(182, 195, 207);
+    --titles-color: #a8a8a8;
+    --bodytext-color: #ffffff;
   }
   
  body {
      background-color: var(--main-bg-color);
      color: var(--bodytext-color);
+     font-family: 'Oswald', sans-serif, Arial, Helvetica, sans-serif;
+     font-size: 25px;
+     
     }
  
  h1,h2,h3,h4,h5,h6 {
-     color: var( --titles-color);
+     font-family: 'Supermercado One', cursive, "Helvetica Neue", "Helvetica", "Arial";
+ }
+
+ h1{
+   font-size: 3em;
+   text-align: center;
  }
 
 
@@ -26,6 +34,7 @@ COLOR PALETTE WITH CSS VARIABLES
 img {
     max-width: 100%;
     height: auto;
+    margin-bottom: 2rem;
 }
 
 
@@ -33,13 +42,26 @@ img {
  
 
 figure {
-    border: 1px solid #444;
+
     margin: 1rem;
     padding: 1rem;
+    position: relative;
 }
 
 figcaption {
     margin: 0.75rem 0 0 0;
+    position: absolute;
+    left: 0.75;
+    bottom: 0.75;
+    text-align: center;
+}
+
+.home a {
+width: 3rem;
+height: 3rem;
+display: block;
+margin: 2em auto;
+
 }
 
 
@@ -92,7 +114,7 @@ margin: 1rem auto 2rem auto;
         padding: 0;
         grid-template-columns: 434px 434px;
         grid-column-gap: 1rem;
-        border: 1px solid red;
+
         width: 886px;
         margin: 1rem auto;
     }
@@ -114,7 +136,18 @@ margin: 1rem auto 2rem auto;
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+}
+
+
+  @media (min-width: 1368px) {
+
+    main.thumbs {
+      grid-template-columns: 434px 434px 434px;
+      grid-column-gap: 1rem;
+      width: 1336px; 
   }
+  
+    }
 
 
 /* XX-Large devices (larger desktops, 1400px and up) */

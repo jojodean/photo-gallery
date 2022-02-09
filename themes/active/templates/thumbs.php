@@ -1,7 +1,7 @@
 <?php
 
-    $metatitle = "Photography Gallery";
-    $metadescription = "Photography Gallery by Billy Poppins";
+    $metatitle = "JoJo Photography";
+    $metadescription = "Photography Gallery by Jonathan Dean";
 
     require_once $_SERVER["DOCUMENT_ROOT"] . "/datasource/recordset-thumbnails.php";
 
